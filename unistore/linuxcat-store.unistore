@@ -1,0 +1,69 @@
+{
+	"storeInfo": {
+		"url": "https://github.com/FlameKat53/storefront/raw/master/unistore/storefront.unistore",
+		"file": "sdmc:/3ds/Universal-Updater/stores/linuxcat-store.unistore",
+		"title": "LinuxCat's Store",
+		"author": "LinuxCat",
+		"description": "A store where everything is not made by me but most of it is.",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 1
+	},
+	"storeContent": [
+		{
+		"info": {
+			"title": "Celeste Classic GBA",
+			"version": "1.0",
+			"author": "JeffRuLz",
+			"description": "Celeste Classic ported to the Game boy Advance. Will download a .gba file in sdmc:/roms/gba/"
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/JeffRuLz/Celeste-Classic-GBA/releases/download/v1.0/Celeste.Classic.GBA.v1.0.zip",
+			"output": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
+			"message": "Downloading the Celeste GBA release..."
+		}, {
+			"type": "extractFile",
+			"file": "/Celeste.Classic.GBA.v1.0.zip",
+			"input": "Celeste Classic (v1.0) (homebrew).gba",
+			"output": "/roms/gba/Celeste Classic (v1.0) (homebrew).gba",
+			"message": "Extracting from the zip..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
+			"message": "Deleting zip file..."
+		}]
+	},
+	{
+		"info": {
+			"title": "Another Celeste GBA",
+			"version": "0.2-beta 1",
+			"author": "LinuxCat",
+			"description": "A hack of Celeste Classic GBA that edits the map. Will download a .gba file in sdmc:/roms/gba/",
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/L-i-n-u-x-C-a-t/Another-Celeste-GBA/releases/download/v0.2-beta.1/Another-Celeste-GBA.gba",
+			"output": "sdmc:/roms/gba/Another-Celeste-GBA.gba",
+			"message": "Downloading Another Celeste GBA release..."
+		}]
+	},
+	{
+		"info": {
+			"title": "GBAButtonTest",
+			"version": "1.0",
+			"author": "LinuxCat",
+			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/",
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/L-i-n-u-x-C-a-t/GBAButtonTest/releases/download/v1.0/ButtonTest.gba",
+			"output": "sdmc:/roms/gba/ButtonTest.gba",
+			"message": "Downloading GBAButtonTest..."
+		},]
+	}]
+}
