@@ -19,7 +19,8 @@
 			"title": "Celeste Classic GBA",
 			"version": "1.0",
 			"author": "JeffRuLz",
-			"description": "Celeste Classic ported to the Game boy Advance. Will download a .gba file in sdmc:/roms/gba/"
+			"description": "Celeste Classic ported to the Game boy Advance. Will download a .gba file in sdmc:/roms/gba/",
+			"fileSize": 0
 		},
 		"script": [{
 			"type": "downloadFile",
@@ -43,7 +44,8 @@
 			"title": "Another Celeste GBA",
 			"version": "0.2-beta 1",
 			"author": "LinuxCat",
-			"description": "A hack of Celeste Classic GBA that edits the map. Will download a .gba file in sdmc:/roms/gba/"
+			"description": "A hack of Celeste Classic GBA that edits the map. Will download a .gba file in sdmc:/roms/gba/",
+			"fileSize": 0
 		},
 		"script": [{
 			"type": "downloadFile",
@@ -57,7 +59,8 @@
 			"title": "GBAButtonTest",
 			"version": "1.0",
 			"author": "LinuxCat",
-			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/"
+			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/",
+			"fileSize": 0
 		},
 		"script": [{
 			"type": "downloadFile",
