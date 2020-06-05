@@ -30,8 +30,8 @@
 		}, {
 			"type": "extractFile",
 			"file": "/Celeste.Classic.GBA.v1.0.zip",
-			"input": "Celeste Classic (v1.0) (homebrew).gba",
-			"output": "/roms/gba/Celeste Classic (v1.0) (homebrew).gba",
+			"input": "",
+			"output": "/roms/gba/",
 			"message": "Extracting from the zip..."
 		}, {
 			"type": "deleteFile",
