@@ -37,7 +37,11 @@
 			"type": "deleteFile",
 			"file": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
 			"message": "Deleting zip file..."
-		}]
+		}, {
+   "type": "deleteFile",
+   "file": "sdmc:/roms/gba/readme.txt",
+   "message": "Deleting readme file..."
+  }]
 	},
 	{
 		"info": {
