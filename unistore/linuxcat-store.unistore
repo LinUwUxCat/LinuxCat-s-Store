@@ -69,6 +69,12 @@
   }]
 	},
 	{
+		"Download AnotherCelesteGBA 0.2-beta1": [
+		    {
+			"file": "https://github.com/L-i-n-u-x-C-a-t/Another-Celeste-GBA/releases/download/v0.2-beta.1/Another-Celeste-GBA.gba",
+			"message":"Downloading Another Celeste GBA release...",
+			"output": "sdmc:/roms/gba/Another-Celeste-GBA.gba"
+			"type": "downloadFile"
 		"info": {
 			"title": "Another Celeste GBA",
 			"version": "0.2-beta 1",
@@ -79,15 +85,17 @@
 			"last_updated": "placeholder",
 			"license": "",
 			"description": "A hack of Celeste Classic GBA that edits the map. Will download a .gba file in sdmc:/roms/gba/"
-		},
-		"script": [{
-			"type": "downloadFile",
-			"file": "https://github.com/L-i-n-u-x-C-a-t/Another-Celeste-GBA/releases/download/v0.2-beta.1/Another-Celeste-GBA.gba",
-			"output": "sdmc:/roms/gba/Another-Celeste-GBA.gba",
-			"message": "Downloading Another Celeste GBA release..."
-		}]
+		}
 	},
 	{
+		"Download GBAButtonTest 1.0": [
+		    {
+			"file": "https://github.com/L-i-n-u-x-C-a-t/GBAButtonTest/releases/download/v1.0/ButtonTest.gba",
+			"message":"Downloading GBAButtonTest...",
+			"output": "sdmc:/roms/gba/ButtonTest.gba",
+			"type": "downloadFile"
+		    }
+		],
 		"info": {
 			"title": "GBAButtonTest",
 			"version": "1.0",
@@ -98,12 +106,6 @@
 			"last_updated": "placeholder",
 			"license": "",
 			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/"
-		},
-		"script": [{
-			"type": "downloadFile",
-			"file": "https://github.com/L-i-n-u-x-C-a-t/GBAButtonTest/releases/download/v1.0/ButtonTest.gba",
-			"output": "sdmc:/roms/gba/ButtonTest.gba",
-			"message": "Downloading GBAButtonTest..."
-		}]
+		}
 	}]
 }
