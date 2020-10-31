@@ -1,17 +1,38 @@
 {
 	"storeInfo": {
 		"url": "https://raw.githubusercontent.com/L-i-n-u-x-C-a-t/LinuxCat-s-Store/master/unistore/linuxcat-store.unistore",
-		"file": "sdmc:/3ds/Universal-Updater/stores/linuxcat-store.unistore",
+		"file": "linuxcat-store.unistore",
 		"title": "LinuxCat's Store",
 		"author": "LinuxCat",
+		"authors":[
+		"LinuxCat",
+		"JeffRuLz"
+		],
 		"description": "A store where everything is not made by me but most of it is.",
-		"barColor": "#395472",
-		"bgBottomColor": "#262C4D",
-		"bgTopColor": "#60A8C0",
-		"textColor": "#FFFFFF",
-		"selectedColor": "#78C0D8",
-		"unselectedColor": "#4D7684",
-		"version": 1
+		"revision":31,
+		"sheet": "linuxcat-store.t3x",
+    		"sheetURL": "placeholder",
+    		"textDark": "#ffffff",
+    		"textLight": "#000000",
+    		"title": "LinuxCat's Store",
+    		"url": "placeholder",
+		"outlineDark": "#f00000",
+   		"outlineLight": "#f00000",
+		"barDark": "#395472",
+    		"barLight": "#395472",
+    		"bgDark": "#262c4d",
+   		"bgLight": "#60a8c0",
+  		"boxDark": "#313131",
+ 		"boxLight": "#f7f7f7",
+		"categories": [
+		"game",
+		"utility"
+		],
+		"consoles": [
+      		"3DS",
+      		"GBA"
+    		],
+		"version": 3
 	},
 	"storeContent": [
 		{
