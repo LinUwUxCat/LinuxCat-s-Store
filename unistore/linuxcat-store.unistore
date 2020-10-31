@@ -36,18 +36,7 @@
 	},
 	"storeContent": [
 		{
-		"info": {
-			"title": "Celeste Classic GBA",
-			"version": "1.0",
-			"author": "JeffRuLz",
-			"category": "game",
-			"console": "GBA",
-			"icon_index":1,
-			"last_updated": "placeholder",
-			"license": "",
-			"description": "Celeste Classic ported to the Game boy Advance. Will download a .gba file in sdmc:/roms/gba/"
-		},
-		"script": [{
+		"Download Celeste Classic GBA": [{
 			"type": "downloadFile",
 			"file": "https://github.com/JeffRuLz/Celeste-Classic-GBA/releases/download/v1.0/Celeste.Classic.GBA.v1.0.zip",
 			"output": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
@@ -63,10 +52,22 @@
 			"file": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
 			"message": "Deleting zip file..."
 		}, {
-   "type": "deleteFile",
-   "file": "sdmc:/roms/gba/readme.txt",
-   "message": "Deleting readme file..."
-  }]
+   			"type": "deleteFile",
+   			"file": "sdmc:/roms/gba/readme.txt",
+   			"message": "Deleting readme file..."
+  		}],
+		"info": {
+			"title": "Celeste Classic GBA",
+			"version": "1.0",
+			"author": "JeffRuLz",
+			"category": "game",
+			"console": "GBA",
+			"icon_index":1,
+			"last_updated": "placeholder",
+			"license": "",
+			"description": "Celeste Classic ported to the Game boy Advance. Will download a .gba file in sdmc:/roms/gba/"
+		}
+
 	},
 	{
 		"Download AnotherCelesteGBA 0.2-beta1": [
