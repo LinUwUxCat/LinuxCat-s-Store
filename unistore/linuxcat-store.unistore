@@ -62,8 +62,7 @@
 			"author": "JeffRuLz",
 			"category": "game",
 			"console": "GBA",
-			"icon_index":1,
-			"last_updated": "placeholder",
+			"icon_index":0,
 			"license": "",
 			"description": "Celeste Classic ported to the Game boy Advance. Will download a .gba file in sdmc:/roms/gba/"
 		}
@@ -82,8 +81,7 @@
 			"author": "LinuxCat",
 			"category": "game",
 			"console": "GBA",
-			"icon_index":2,
-			"last_updated": "placeholder",
+			"icon_index":1,
 			"license": "",
 			"description": "A hack of Celeste Classic GBA that edits the map. Will download a .gba file in sdmc:/roms/gba/"
 		}
@@ -103,10 +101,38 @@
 			"author": "LinuxCat",
 			"category": "utility",
 			"console": "GBA",
-			"icon_index":3,
-			"last_updated": "placeholder",
+			"icon_index":2,
 			"license": "",
 			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/"
+		}
+	},
+	{
+		"Download LM2DLPAL": [
+		    {
+			"file": "https://github.com/L-i-n-u-x-C-a-t/Luigis-Mansion-2-DLP-App-Launcher/releases/download/0.1/LM2DLPAL.cia",
+			"message":"Downloading the app...",
+			"output": "sdmc:/LM2DLPAL.cia",
+			"type": "downloadFile"
+		    },
+		    {
+		    	"file": "/LM2DLPAL.cia",
+			"message": "Installing LM2DLPAL.cia...",
+			"type": "installCia"
+		    },
+		    {	"file": "sdmc:/LM2DLPAL.cia",
+          		"message": "Deleting LM2DLPAL.cia.",
+         		"type": "deleteFile"
+		    } 
+		],
+		"info": {
+			"title": "Luigi's Mansion 2 DLP app launcher",
+			"version": "0.1",
+			"author": "LinuxCat",
+			"category": "utility",
+			"console": "GBA",
+			"icon_index":3,
+			"license": "",
+			"description": "LM2DLPAL launches the DlP app of Luigi's Mansion 2 (Dark Moon)"
 		}
 	}]
 }
