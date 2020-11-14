@@ -4,38 +4,13 @@
 		"file": "linuxcat-store.unistore",
 		"title": "LinuxCat's Store",
 		"author": "LinuxCat",
-		"authors":[
-		"LinuxCat",
-		"JeffRuLz"
-		],
 		"description": "A store where everything is not made by me but most of it is.",
-		"revision":31,
+		"revision":32,
 		"sheet": "linuxcat-store.t3x",
-    		"sheetURL": "placeholder",
-    		"textDark": "#ffffff",
-    		"textLight": "#000000",
-    		"title": "LinuxCat's Store",
-    		"url": "placeholder",
-		"outlineDark": "#f00000",
-   		"outlineLight": "#f00000",
-		"barDark": "#395472",
-    		"barLight": "#395472",
-    		"bgDark": "#262c4d",
-   		"bgLight": "#60a8c0",
-  		"boxDark": "#313131",
- 		"boxLight": "#f7f7f7",
-		"categories": [
-		"game",
-		"utility"
-		],
-		"consoles": [
-      		"3DS",
-      		"GBA"
-    		],
+		"sheetURL": "https://github.com/L-i-n-u-x-C-a-t/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
 	},
-	"storeContent": [
-		{
+	"storeContent": [{
 		"Download Celeste Classic GBA": [{
 			"type": "downloadFile",
 			"file": "https://github.com/JeffRuLz/Celeste-Classic-GBA/releases/download/v1.0/Celeste.Classic.GBA.v1.0.zip",
@@ -52,84 +27,80 @@
 			"file": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
 			"message": "Deleting zip file..."
 		}, {
-   			"type": "deleteFile",
-   			"file": "sdmc:/roms/gba/readme.txt",
-   			"message": "Deleting readme file..."
+			"type": "deleteFile",
+			"file": "sdmc:/roms/gba/readme.txt",
+			"message": "Deleting readme file..."
   		}],
 		"info": {
 			"title": "Celeste Classic GBA",
 			"version": "1.0",
 			"author": "JeffRuLz",
-			"category": "game",
-			"console": "GBA",
+			"category": ["game"],
+			"console": ["GBA"],
 			"icon_index":0,
 			"license": "",
 			"description": "Celeste Classic ported to the Game boy Advance. Will download a .gba file in sdmc:/roms/gba/"
 		}
-
 	},
 	{
-		"Download AnotherCelesteGBA 0.2-beta1": [
-		    {
+		"Download AnotherCelesteGBA 0.2-beta1": [{
 			"file": "https://github.com/L-i-n-u-x-C-a-t/Another-Celeste-GBA/releases/download/v0.2-beta.1/Another-Celeste-GBA.gba",
 			"message":"Downloading Another Celeste GBA release...",
-			"output": "sdmc:/roms/gba/Another-Celeste-GBA.gba"
+			"output": "sdmc:/roms/gba/Another-Celeste-GBA.gba",
 			"type": "downloadFile"
+		}],
 		"info": {
 			"title": "Another Celeste GBA",
 			"version": "0.2-beta 1",
 			"author": "LinuxCat",
-			"category": "game",
-			"console": "GBA",
+			"category": ["game"],
+			"console": ["GBA"],
 			"icon_index":1,
 			"license": "",
 			"description": "A hack of Celeste Classic GBA that edits the map. Will download a .gba file in sdmc:/roms/gba/"
 		}
 	},
 	{
-		"Download GBAButtonTest 1.0": [
-		    {
+		"Download GBAButtonTest 1.0": [{
 			"file": "https://github.com/L-i-n-u-x-C-a-t/GBAButtonTest/releases/download/v1.0/ButtonTest.gba",
 			"message":"Downloading GBAButtonTest...",
 			"output": "sdmc:/roms/gba/ButtonTest.gba",
 			"type": "downloadFile"
-		    }
-		],
+		}],
 		"info": {
 			"title": "GBAButtonTest",
 			"version": "1.0",
 			"author": "LinuxCat",
-			"category": "utility",
-			"console": "GBA",
+			"category": ["utility"],
+			"console": ["GBA"],
 			"icon_index":2,
 			"license": "",
 			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/"
 		}
 	},
 	{
-		"Download LM2DLPAL": [
-		    {
+		"Download LM2DLPAL": [{
 			"file": "https://github.com/L-i-n-u-x-C-a-t/Luigis-Mansion-2-DLP-App-Launcher/releases/download/0.1/LM2DLPAL.cia",
 			"message":"Downloading the app...",
 			"output": "sdmc:/LM2DLPAL.cia",
 			"type": "downloadFile"
-		    },
-		    {
-		    	"file": "/LM2DLPAL.cia",
+		},
+		{
+			"file": "/LM2DLPAL.cia",
 			"message": "Installing LM2DLPAL.cia...",
 			"type": "installCia"
-		    },
-		    {	"file": "sdmc:/LM2DLPAL.cia",
-          		"message": "Deleting LM2DLPAL.cia.",
-         		"type": "deleteFile"
-		    } 
-		],
+		},
+		{
+			"file": "sdmc:/LM2DLPAL.cia",
+		  	"message": "Deleting LM2DLPAL.cia.",
+		 	"type": "deleteFile"
+		}],
 		"info": {
 			"title": "Luigi's Mansion 2 DLP app launcher",
 			"version": "0.1",
 			"author": "LinuxCat",
-			"category": "utility",
-			"console": "GBA",
+			"category": ["utility"],
+			"console": ["GBA"],
 			"icon_index":3,
 			"license": "",
 			"description": "LM2DLPAL launches the DlP app of Luigi's Mansion 2 (Dark Moon)"
